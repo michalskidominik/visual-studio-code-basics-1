@@ -135,11 +135,8 @@ Ponizej krotka lista podsumowujaca co mozemy zrobic w podstawowym narzedziu SCM:
 - Podstawowe opcje GitLens 
 - Ustawienia rozszerzenia GitLens
 
-<img src="./images/available-branches.png" width="600" />
-<img src="./images/git-tags.png" width="600" />
-
-<br>
-<br>
+<img src="./images/available-branches.png" width="600" />  
+<img src="./images/git-tags.png" width="600" />  
 
 ## Source Control Provider
 Visual Studio Code nie jest ograniczone do pracy z Source Control git, mozemy doinstalowac rozszerzenie pozwalające na zarządzanie kodem w SVN, a nawet TFS.
@@ -190,8 +187,7 @@ Inny typ breakpoint'ów dodajemy klikając prawym na polu tworzenia breakpointó
 Deklarujemy logowaną wiadomośc. Mamy dostep do wszystkich zmiennych w klasie wylacznie w ramach klamr (`{ }`).  
 HitPoint prezentowany jest inaczej niz standardowy breakpoint, ponadto po najechaniu prezentuje logowaną wiadomośc.  
 
-## Rozszerzenia
-### Rozszerzenie: Jira and Bitbucket (Official)
+# Rozszerzenie Jira and Bitbucket (Official)
 Rozszerzenie udostępnia funkcjonalności spełniajace wszystki potrzeby dewelopera w ramach Jira i Bitbucket. Rozszerzenie przede wszystkim udostępnia:
 - Podgląd przypisanych zadań
 - Tworzenie oraz zarządzanie utworzonymi zadaniami
@@ -199,13 +195,32 @@ Rozszerzenie udostępnia funkcjonalności spełniajace wszystki potrzeby dewelop
 - Tworzenie zadań bezpośrednio z kodu oznaczonego wybranym tagiem np. **TODO**, **FIXME**
 - Tworzenie, przeglądanie oraz zamykanie Pull Requestów
 - Weryfikowanie stanu buildów
-#### Jira
-Dodac zdjecia
-#### Bitbucket
-Dodac zdjecia
+## Podgląd oraz wyszukiwanie zadań z Visual Studio Code
+Rozszerzenie umożliwia podgląd naszego boarda, notyfikuje nas o nowych zadaniach oraz umożliwia tworzenie zadań bezpośrednio z edytora.  
+<img src="./images/jira-summary.png" width="400" />
 
-### SQL Server
-Rozszerzenie pozwala na podstawowe zarządzanie bazą, w tym m.in.:
+## Tworzenie zadań
+Mamy możliwość tworzenia zadań z edytora kodu oraz co ważniejsze, tworzenie zadań z zadeklarowanych przez nas tagów typu TODO / FIXME bezpośrednio w kodzie.
+### Podpowiedź w kodzie pozwalająca na tworzenie zadania
+<img src="./images/jira-create-task-2.png" width="200" />   
+
+### Kreator zadania
+<img src="./images/jira-create-task-1.png" width="400" />  
+
+
+#### Bitbucket
+Mamy możliwość tworzenia pull request'ów wraz z jednoczesnym oznaczaniem zadań w Jira jako zrealizowane.  
+<img src="./images/bitbucket-2.png" width="400" />  
+
+W rozszerzenie wbudowany został również moduł pozwalający na robienie Code Review wraz z dodawaniem zadań w ramach PR. Niestety nie ma wbudowanego sugerowania zmian (suggestion) dostępnego w wersji web.
+<img src="./images/bitbucket-1.png" width="400" />  
+
+
+#### Uwagi
+Warto zdawać sobie sprawę, że dostpne są alternatywne rozszerzenia integracji z GitHub oraz GitLab.
+
+# Rozszerzenie SQL Server
+Rozszerzenie pozwala na podstawowe zarządzanie bazą, w tym m. in.:
 - Deklarowanie wielu połączeń bazodanowych
 - Wykonywanie instrukcji języka T-SQL wraz ze wsparciem InteliSense
 - Wizualny podgląd struktury oraz zawartości bazy
